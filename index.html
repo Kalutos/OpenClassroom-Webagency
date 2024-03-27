@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="images/ico/apple-touch-icon-57-precomposed.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/ico/apple-touch-icon-72-precomposed.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/ico/apple-touch-icon-114-precomposed.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/ico/apple-touch-icon-144-precomposed.png"/>
+        <link rel="shortcut icon" type="image/png" href="images/ico/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Condensed" rel="stylesheet">
+        <meta name="keywords" content="hover effect, inspiration, grid, thumbnail, transition, subtle, web design" />
+        <title>WebAgency</title>
+    </head>
+
+<body>
+    <!--Header-->
+    <header class="top-nav"> 
+
+        <div class="logo">
+                <img src="images/logo.png" alt="logo du site" ></div>
+
+        <input id="menu-toggle" type="checkbox" />
+        
+                <label class='menu-button-container' for="menu-toggle">
+                        <span class='menu-button'></span>
+                </label>
+
+                <ul class="menu">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                </ul>
+    </header>
+    <!-- Fin Header-->
+
+
+    <!--Section Webagency-->
+    <section class="web_agency" id="accueil">
+
+            <div class="w3-display-container">
+
+                    <img class="mySlides" src="images/slider/bg1.jpg" style="width:100%" alt="image slider1">
+                    <img class="mySlides" src="images/slider/bg2.jpg" style="width:100%" alt="image slider2">
+                    
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>     
+
+                        <article>
+                                <p class="approche"><span class='blue'>WEBAGENCY </span>: L'AGENCE DE TOUS VOS PROJETS! <br>Vous avez un projet web?<br>La WebAgency vous aide à le réaliser !</p>
+                                <input type="submit" name="submit" value="Plus d'infos"/>           
+                        </article>
+            </div>
+    </section>
+    <!--Fin Section Webagency-->
+
+
+    <!-- Section Nos Service-->
+    <section class="services" id="services">  
+
+        <h2>NOS SERVICES</h2>
+
+        <div class="hr-circle-ends"> 
+            <div class="blue_balls">
+            </div>
+        </div>
+
+        <h5>Voici quelques services que nous proposons</h5>
+
+
+            <div class="service">
+
+                <div class="ecran">
+                    <img src="images/main-feature.png" alt="ecran photo">
+                </div>
+
+                <div class="chapitre">
+
+                    <div class="ux">
+                        <div class="image_service"> 
+                                <div class="border"> 
+                            <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="cercle"></div>
+                                </div>
+                                <div class="text">
+                                        <h3>UX DESIGN</h3>
+                            <p>L’expérience l’utilisateur est un concept qui permet de qualifier le résultat et le ressenti de l’utilisateur  lors d’une manipulation  d’un objet fonctionnel ou d’une interface homme-machine de manière heuristique par un ensemble de facteurs.</p>
+                        </div>
+                    </div>
+
+                    <div class="ux">
+                        <div class="image_service">
+                            <div class="border">
+                            <i class="fas fa-cubes" ></i>
+                            </div>
+                            <div class="cercle"></div>
+                            </div>
+                            <div class="text">
+                                <h3>UI DESIGN</h3>
+                            <p>L’UI intervient plusieurs fois dans ce processus. Il s’agit effectivement de proposer une jolie enveloppe et donc de créer un design fonctionnel, qui inspire confiance et qui permette à l’utilisateur d’arriver à son but</p>
+                         </div>
+                    </div>
+
+                    <div class="ux">
+                        <div class="image_service">
+                            <div class="border">
+                            <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <div class="cercle"></div>
+                            </div>
+                        <div class="text">
+                                <h3>SEO DESIGN</h3>
+                            <p>Le SEO (Search Engine Optimization) est l’art d’optimiser un projet web et son environnement pour les moteurs de recherche (Google, Bing, Yahoo…). Plus communément appelé référencement naturel, son but est d’augmenter la qualité, la compréhension</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>   
+    </section>
+    <!-- Fin Section Nos Service-->
+
+
+    <!-- Section Projets-->
+    <section class="projets" id="portfolio">
+
+        <h2>NOS PROJETS</h2>   
+
+        <div class="hr-circle-ends"> 
+                <div class="blue_balls">
+                </div>
+        </div>
+
+            <h5>Voici le portfolio de l'agence</h5>
+
+            <div id="bouton-galerie">
+                    <!--Ouverture du bloc bouton-->
+                    <ul>
+                        <li class="active"><a href="#">ALL Works</a><div class="fleche_bulle"></div></li>
+                        <li><a href="#">Creative</a></li>
+                        <li><a href="#">Corporate</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ul>
+            </div>
+
+                <div class="grid">    
+
+                        <figure class="effect-zoe">    <!-- Exemple de Figure-->
+                                <img src="images/portfolio/01.jpg" alt="Portfolio 1"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 1</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/02.jpg" alt="Portfolio 2"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 2</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/03.jpg" alt="Portfolio 3"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 3</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/04.jpg" alt="Portfolio 4"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 4</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/05.jpg" alt="Portfolio 5"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 5</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/06.jpg" alt="Portfolio 6"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 6</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/07.jpg" alt="Portfolio 7"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 7</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>
+
+                        <figure class="effect-zoe">
+                                <img src="images/portfolio/08.jpg" alt="Portfolio 8"/>
+                                <figcaption>
+                                        <h2>Portfolio Item 8</h2>
+                                        <i class="fas fa-eye cercle_projet icon-eye"></i>
+                                        <p>Lorem ipsum dolor sit amet,</p>
+                                </figcaption>			
+                        </figure>                     
+                </div>
+    </section>
+    <!-- Fin Section Projets-->
+
+
+    <!-- Section Contact-->
+    <section class="contact" id="contact">
+
+                <div class="google-wrapper">
+                        <div id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83999.32628024506!2d2.2818272929234547!3d48.8586118614916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1546547906199" style="border:0" allowfullscreen ></iframe></div>
+                        <div id="google-map-overlay"></div>
+
+
+
+                        <form class="formulaire">    <!-- Formulaire-->
+
+                        <h4>Contact Info</h4>
+
+                                <p class="text_contact"><strong>WebAgency SAS</strong><br>
+                                25 Rue d'Hauteville 75010 Paris<br>
+                                <u>Tel</u> : 01 02 03 04 05</p>
+
+
+                                <input type="text" name="nom" placeholder="Name"/>
+                                <input type="email" name="email" placeholder="Email"/>
+                                <input type="text" name="subject" placeholder="Subject"/>
+                                <textarea id="message" name="message" placeholder="Message"></textarea>
+                                <input type="submit" id="submit" name="submit" class="send_message" value="Send Message"/>
+
+                        </form> <!-- Fin Formulaire-->
+
+                </div>
+    </section>
+    <!-- Fin Section Contact-->
+
+
+
+<script src="js/menu.js"></script>
+<script src="js/img_slider.js"></script>
+
+</body>
+</html>
+
