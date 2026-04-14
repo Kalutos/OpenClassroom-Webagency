@@ -7,7 +7,7 @@ Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soute
 
 ## 👤 Auteurs
 
-- Marie-Jo Engelöch - mariejo.engeloch@gmail.com
+- Arthur Selva - selva.arthur@gmail.com
 
 
 ## 📁 Fichiers
