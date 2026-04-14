@@ -1,25 +1,44 @@
 # OC-webagency
  
-WebAgency - Soutenance 1
-Site vitrine pour la société WebAgency en html/css rélisé pour la 1re soutenance du parcourt "Développeur Web Junior" d'OpenClassrooms.
+# WebAgency - Soutenance 1
 
-Auteurs
-Marie-Jo Engeloch - mariejo.engeloch@gmail.com
+Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soutenance du parcours "Développeur Web Junior" d'OpenClassrooms.
 
-Fichiers
-README.md
-index.html
-style.css
-.gitignore
-.editorconfig
-images
-fonts
-WebAgency - MjE.pptx
-W3C
-Validation W3C
+---
 
-Site Web
-Lien pour le site de la WebAgency
+## 👤 Auteurs
 
-GitHub
-Lien du repositorie sur GitHub
+- Marie-Jo Engelöch - mariejo.engeloch@gmail.com
+
+---
+
+## 📁 Fichiers
+
+- README.md  
+- index.html  
+- style.css  
+- .gitignore  
+- .editorconfig  
+- images/  
+- fonts/  
+- WebAgency - MjE.pptx  
+
+---
+
+## ✅ W3C
+
+Validation : [W3C](https://validator.w3.org/)
+
+---
+
+## 🌐 Site Web
+
+Lien vers le site de la WebAgency :  
+👉 [Voir le site](https://ton-lien-du-site.com)
+
+---
+
+## 💻 GitHub
+
+Lien du repository :  
+👉 [Voir le repo]([https://github.com/ton-username/ton-repo](https://github.com/Kalutos/OpenClassroom-Webagency))
