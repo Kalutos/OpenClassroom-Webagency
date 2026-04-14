@@ -5,12 +5,12 @@
 Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soutenance du parcours "Développeur Web Junior" d'OpenClassrooms.
 
 
-## 👤 Auteurs
+## Auteurs
 
 - Arthur Selva - selva.arthur@gmail.com
 
 
-## 📁 Fichiers
+## Fichiers
 
 - README.md  
 - index.html  
@@ -22,18 +22,16 @@ Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soute
 - WebAgency - MjE.pptx  
 
 
-## ✅ W3C
+## W3C
 
 Validation : [W3C](https://validator.w3.org/)
 
 
-## 🌐 Site Web
+## Site Web
 
-Lien vers le site de la WebAgency :  
-👉 [Voir le site](https://ton-lien-du-site.com)
+Lien vers le site de la WebAgency : [Voir le site](https://ton-lien-du-site.com)
 
 
-## 💻 GitHub
+## GitHub
 
-Lien du repository :  
-👉 [Voir le repo]([https://github.com/ton-username/ton-repo](https://github.com/Kalutos/OpenClassroom-Webagency))
+Lien du repository : [Voir le repo]([https://github.com/ton-username/ton-repo](https://github.com/Kalutos/OpenClassroom-Webagency))
