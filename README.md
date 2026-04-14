@@ -1,6 +1,6 @@
-# OC-webagency
+# OpenClassroom-PDW 1
  
-# WebAgency - Soutenance 1
+# Site vitrine - WebAgency
 
 Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soutenance du parcours "Développeur Web Junior" d'OpenClassrooms.
 
