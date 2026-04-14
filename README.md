@@ -5,12 +5,10 @@
 Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soutenance du parcours "Développeur Web Junior" d'OpenClassrooms.
 
 
-
 ## 👤 Auteurs
 
 - Marie-Jo Engelöch - mariejo.engeloch@gmail.com
 
----
 
 ## 📁 Fichiers
 
@@ -23,20 +21,17 @@ Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soute
 - fonts/  
 - WebAgency - MjE.pptx  
 
----
 
 ## ✅ W3C
 
 Validation : [W3C](https://validator.w3.org/)
 
----
 
 ## 🌐 Site Web
 
 Lien vers le site de la WebAgency :  
 👉 [Voir le site](https://ton-lien-du-site.com)
 
----
 
 ## 💻 GitHub
 
