@@ -4,7 +4,7 @@
 
 Site vitrine pour la société WebAgency en HTML/CSS réalisé pour la 1re soutenance du parcours "Développeur Web Junior" d'OpenClassrooms.
 
----
+
 
 ## 👤 Auteurs
 
